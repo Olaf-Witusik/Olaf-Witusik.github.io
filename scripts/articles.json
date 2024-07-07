@@ -1,0 +1,14 @@
+{
+    "articles": [
+        {
+            "title": "Pierwszy Artykuł",
+            "description": "Krótki opis pierwszego artykułu.",
+            "file": "pierwszy_artykul.pdf"
+        },
+        {
+            "title": "Drugi Artykuł",
+            "description": "Krótki opis drugiego artykułu.",
+            "file": "drugi_artykul.pdf"
+        }
+    ]
+}
