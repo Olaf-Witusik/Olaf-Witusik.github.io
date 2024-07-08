@@ -103,8 +103,8 @@ footer {
     margin-top: 5vh;
 }
 #contact-box{
-    width: 80vw;
-    height: 50vh;
+    width: 80vmin;
+    height: 50vmin;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +116,7 @@ footer {
     margin-top: 0;
     margin-bottom: 2vh;
     font-size: 3vmin;
-    line-height: 15vh;
+    line-height: 15vmin;
 }
 
 #info{
