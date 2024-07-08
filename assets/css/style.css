@@ -1,0 +1,88 @@
+/* style.css */
+
+/* Resetowanie domyślnych stylów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-color: #fff;
+    --back-color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin-top: 60px; /* Adjust according to header height */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: var(--back-color);
+    color: var(--text-color);
+    padding: 10px 0;
+    width: 100%;
+    text-align: center; /* Center align all content in header */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure header stays above other content */
+}
+
+nav {
+    display: flex;
+    flex-direction: column; /* Display items in a column */
+    align-items: center; /* Center items horizontally */
+}
+
+.logo {
+    background-color: var(--back-color);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-top: -2vh;
+    margin-bottom: 3vh; /* Space between logo and menu */
+    text-align: center;
+}
+
+.logo img {
+    height: 10vh;
+    width: auto;
+    vertical-align: middle;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    position: sticky;
+    top: 60px; /* Adjust according to header height */
+    z-index: 999; /* Ensure container stays above content */
+}
+
+.menu-item {
+    font-size: 16px;
+    padding: 0 15px; /* Add padding to each menu item */
+    text-decoration: none; /* Remove underline from links */
+    color: var(--text-color); /* Text color */
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+#content {
+    padding-top: 20px; /* Ensure content starts below header and container */
+}
+
+footer{
+    
+    margin-top: auto;
+    background-color: var(--back-color);
+    color: var(--text-color); /* Text color */
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+}
