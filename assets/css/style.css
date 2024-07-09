@@ -1,81 +1,125 @@
-:root{
+:root {
     --text-color: #fff;
     --back-color: #333;
+    --math-color: rgba(67, 72, 241, 0.717);
+}
+
+@font-face {
+    font-family: "LM Roman 10";
+    src: url(../fonts/lmroman10-regular.otf);
+}
+@font-face {
+    font-family: "LM Roman 10";
+    src: url(../fonts/lmroman10-bold.otf);
+    font-weight: bold;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "LM Roman 10";
     line-height: 1.6;
     margin: 0;
-    padding-top: calc(38px + 2vh); /* Adjust according to header height */
+    padding-top: calc(38px + 2vh);
+    /* Adjust according to header height */
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 header {
     background-color: var(--back-color);
     color: var(--text-color);
-    padding: 10px 0;
     width: 100%;
-    text-align: center; /* Center align all content in header */
+    text-align: center;
+    /* Center align all content in header */
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000; /* Ensure header stays above other content */
+    z-index: 1000;
+    /* Ensure header stays above other content */
 }
 
 nav {
     display: flex;
-    flex-direction: column; /* Display items in a column */
-    align-items: center; /* Center items horizontally */
+    justify-content: space-around;
+    position: sticky;
 }
 
-.container {
-    display: flex;
-    justify-content: center; /* Center items horizontally */
-    position: sticky;
-    z-index: 999; /* Ensure container stays above content */
-}
 
 .menu-item {
-    font-size: 18px;
-    padding: 1vh 10vw; /* Add padding to each menu item */
-    text-decoration: none; /* Remove underline from links */
-    color: var(--text-color); /* Text color */
+    font-weight: bold;
+    display: flex;
+    width: 18vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: clamp(11px, 3vmin, 18px);
+    padding: 2vh 1vmin;
+    /* Add padding to each menu item */
+    text-decoration: none;
+    /* Remove underline from links */
+    color: var(--text-color);
+    /* Text color */
+    margin: 0;
 }
 
 .menu-item:hover {
     text-decoration: underline;
 }
 
-#content {
+.content {
     min-height: 100vh;
-    padding: 0 2vw;
+    width: 100vw;
+    margin-top: 2vh;
+    padding-top: 5vh;
     /* background-origin: padding-box; */
     background-image: url("../img/back.png");
-    background-size: 100% auto; /* Adjusted to fit horizontally */
+    background-size: 100% auto;
     background-repeat: repeat-y;
-    /* backdrop-filter: blur(2px); */
 }
 
 #articles-container {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     width: 100%;
 }
 
+.article-box{
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .article {
-    width: 70vw;
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.786);
+    width: min(1200px, 85vw);
+    /* background: linear-gradient(to right, rgba(255, 255, 255, 0.75) calc(0px), var(--math-color) calc(80px)); */
     backdrop-filter: blur(2px);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 8px;
-    margin-top: 0;
     margin-bottom: 2vh;
 }
 
-th, td {
+/* Fizyka */
+.cat-0{
+    background: linear-gradient(135deg, rgba(67, 72, 241, 1) 0%, rgba(67, 73, 241, 1) 25px, rgba(255, 255, 255, 0.75) 27px);
+}
+
+/* Informatyka */
+.cat-1{
+    background: linear-gradient(135deg, rgba(67, 151, 241, 1) 0%, rgba(67, 151, 241, 1) 25px, rgba(255, 255, 255, 0.75) 27px);
+}
+
+/* Matematyka */
+.cat-2{
+    background: linear-gradient(135deg, rgba(241, 67, 67, 1) 0%, rgba(241, 67, 67, 1) 25px, rgba(255, 255, 255, 0.75) 27px);
+}
+
+/* Filozofia Nauki */
+.cat-3{
+    background: linear-gradient(135deg, rgba(152, 152, 152, 1) 0%, rgba(152, 152, 152, 1) 25px, rgba(255, 255, 255, 0.75) 27px);
+}
+
+th,
+td {
     padding: 10px;
 }
 
@@ -90,19 +134,21 @@ th, td {
 
 footer {
     background-color: var(--back-color);
-    color: var(--text-color); /* Text color */
+    color: var(--text-color);
+    /* Text color */
     padding-top: 2vh;
     padding-bottom: 2vh;
     text-align: center;
     width: 100%;
 }
 
-#contact-info{
+#contact-info {
     display: flex;
     justify-content: center;
     margin-top: 5vh;
 }
-#contact-box{
+
+#contact-box {
     width: 80vmin;
     height: 50vmin;
     display: flex;
@@ -110,37 +156,49 @@ footer {
     align-items: center;
     text-align: center;
     border-radius: 3vmin;
-    background-color: rgba(255, 255, 255, 0.786);
+    background-color: rgba(255, 255, 255, 0.75);
     backdrop-filter: blur(2px);
     box-shadow: 0px 15px 27px 1px rgba(66, 68, 90, 1);
-    margin-top: 0;
-    margin-bottom: 2vh;
-    font-size: 3vmin;
+    margin: 2vmin;
+    font-size: max(25px, 3vmin);
     line-height: 15vmin;
 }
 
-#info{
+.info {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 5vh;
+    align-items: center;
+    width: 100%;
+    margin-top: 3vh;
     margin-bottom: 5vh;
 }
 
-#info-box{
-    width: 70vw;
-    height: auto;
+.box {
+    flex: 1 1 400px;
+    /* Preferred width */
+    min-width: 200px;
+    max-width: 500px;
+    box-sizing: border-box;
+    /* Ensure padding and border are included in the width */
+    padding: 2vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.info-box {
+    width: auto;
+    /* Ensure padding and border are included in the width */
     padding: 2vh;
     display: block;
     justify-content: center;
     align-items: center;
     text-align: justify;
     border-radius: 3vmin;
-    background-color: rgba(255, 255, 255, 0.786);
-    backdrop-filter: blur(2px);
-    box-shadow: 0px 15px 27px 1px rgba(66, 68, 90, 1);
-    margin-top: 0;
-    margin-bottom: 2vh;
+    background: linear-gradient(to top left, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 70%, rgba(176, 176, 176, 0.137) 100%);
+    backdrop-filter: blur(4px);
+    box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.22);
     font-size: 16px;
     line-height: 20px;
 }
-
