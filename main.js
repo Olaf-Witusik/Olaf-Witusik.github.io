@@ -5,11 +5,10 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             data.articles.forEach(article => {
-                console.log(1)
                 const articleElement = document.createElement('div');
                 articleElement.classList.add('article-box');
                 articleElement.innerHTML = `
-                <a class=\"article-link\" href=\"articles/${article.file}\">
+                <a class=\"article-link\" href=\"articles/${article.file_pl}\" target="_blank">
                 <table class=\"article cat-${categories.indexOf(article.category)}\">
                 <tbody>
                 <tr>

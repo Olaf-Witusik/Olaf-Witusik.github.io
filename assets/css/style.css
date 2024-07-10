@@ -206,3 +206,9 @@ footer {
     text-align: center;
     width: 100%;
 }
+
+.footer-container{
+    /* padding-inline: min(300px, 40vw); */
+    width: min(90vw, max(400px, 20vw));
+    margin-inline: auto;
+}

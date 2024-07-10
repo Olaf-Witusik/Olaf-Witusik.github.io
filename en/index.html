@@ -1,31 +1,65 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strona Główna</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="description" content="Strona z darmowymi opracowaniami z dziedziny Fizyki, Informatyki, Matematyki oraz Filozofii Nauki">
+    <meta name="keywords" content="Olaf, Witusik, Fizyka, Informatyka, Matematyka, Filozofia Nauki">
+    <meta name="author" content="Olaf Witusik">
+    <title>Publikacje - Olaf Witusik</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="main.js"></script>
 </head>
+
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">Strona główna</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">O mnie</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-                <li><a href="../en/index.html">English</a></li>
-            </ul>
+            <a href="../en/" class="menu-item">Publications</a>
+            <a href="about-site.html" class="menu-item">About the website</a>
+            <a href="about-me.html" class="menu-item">About me</a>
+            <a href="contact.html" class="menu-item">Contact</a>
+            <a href=".." class="menu-item polski">Polski</a>
         </nav>
     </header>
 
-    <section id="content">
-        <h1>Witaj na mojej stronie!</h1>
-        <p>Tutaj znajdziesz wszystkie potrzebne informacje.</p>
+    <section class="content">
+        <div id="articles-container">
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Nazwa Użytkownika</p>
+        <div class="footer-container">
+            <p>&copy; 2024 Olaf Witusik.</p><br><br>
+            <p style="font-family: Arial;">Licensed under a
+                <a href="http://creativecommons.org/licenses/by-nd/4.0/">
+                    Creative Commons Attribution-NoDerivs 4.0 International License.
+                </a>
+            </p>
+            <p style="font-family: Arial;">
+                <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">
+                    <img alt="Creative Commons License" src="https://licensebuttons.net/l/by-nd/4.0/88x31.png" />
+                </a>
+            </p><br><br>
+            <p style="
+            font-family: Arial;
+            text-align: justify;
+            text-align-last: center;
+            font-size: 10px;">
+                THIS WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+                LIMITED
+                TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT
+                SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+                AN
+                ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OR
+                OTHER DEALINGS IN THE WORK.
+            </p>
+            <p style="font-family: Arial;font-size: 10px;">
+                This disclaimer was adapted from the MIT License.
+
+            </p>
+        </div>
     </footer>
 </body>
+
 </html>
