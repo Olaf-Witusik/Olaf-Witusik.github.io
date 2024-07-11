@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <tr>
                         <td>
                             <p>
-                                <b>${article.title}</b>
+                                <b>${article.title_en}</b>
                             </p>
                             <p><a>${article.category}</a></p>
                         </td>
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <tr>
                         <td>
                             <p>
-                                <b>${article.title}</b><br>
+                                <b>${article.title_pl}</b><br>
                                 <font color="red">Unavailable in English</font> 
                             </p>
                             <p><a>${article.category}</a></p>

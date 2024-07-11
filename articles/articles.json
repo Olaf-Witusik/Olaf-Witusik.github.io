@@ -1,148 +1,31 @@
 {
     "articles": [
         {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
+            "title_pl": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
+            "title_en": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
             "category": "Fizyka",
             "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
             "date":"2024/02"
         },
         {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
+            "title_pl": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
+            "title_en": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
             "category": "Informatyka",
             "file_pl": "pierwszy_artykul.pdf",
             "date":"2024/02"
         },
         {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
+            "title_pl": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
+            "title_en": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
             "category": "Matematyka",
             "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
             "date":"2024/02"
         },
         {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
+            "title_pl": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
+            "title_en": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
             "category": "Filozofia Nauki",
             "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Fizyka",
-            "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Informatyka",
-            "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Matematyka",
-            "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Filozofia Nauki",
-            "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Fizyka",
-            "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Informatyka",
-            "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Matematyka",
-            "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Filozofia Nauki",
-            "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Fizyka",
-            "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Informatyka",
-            "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Matematyka",
-            "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Filozofia Nauki",
-            "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Fizyka",
-            "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Informatyka",
-            "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Matematyka",
-            "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Filozofia Nauki",
-            "file_pl": "pierwszy_artykul.pdf",
-            "file_en": "pierwszy_artykul.pdf",
-            "date":"2024/02"
-        },
-        {
-            "title": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
-            "category": "Matematyka",
-            "file": "pierwszy_artykul.pdf",
             "date":"2024/02"
         }
     ]

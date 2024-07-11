@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <tr>
                     <td>
                         <p>
-                            <b>${article.title}</b>
+                            <b>${article.title_pl}</b>
                         </p>
                         <p><a>${article.category}</a></p>
                     </td>
