@@ -6,6 +6,7 @@
 
 a {
     color: unset;
+    margin-bottom: 2vh;
 }
 
 @font-face {
@@ -101,7 +102,6 @@ nav {
     width: min(1200px, 85vw);
     backdrop-filter: blur(2px);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 8px;
-    margin-bottom: 2vh;
     font-size: clamp(16px, 4vmin, 18px)
 }
 
@@ -194,8 +194,8 @@ th, td {
     background: linear-gradient(to top left, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 70%, rgba(176, 176, 176, 0.137) 100%);
     backdrop-filter: blur(4px);
     box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.22);
-    font-size: 16px;
-    line-height: 20px;
+    font-size: clamp(16px,1vmax,20px);
+    line-height: calc(1.25 * clamp(16px,1vmax,20px));
 }
 
 footer {
