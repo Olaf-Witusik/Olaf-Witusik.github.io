@@ -1,0 +1,7 @@
+Choć może jest to mało popularny sposób uczenia się fizyki, to osobiście, gdy tylko mogę, praktykuję ją w pełnym matematycznym formalizmie.<br>
+                        Nie oznacza to jednak, że nie uznaję uproszczeń, które przecież są koniecznym następstwem modelowania w skończonym czasie świata przeliczalnie, a może i nieprzeliczalnie nieskończonego. Znaczy to, natomiast, że nie 
+
+Fizyką zajmuję się zwracając szczególną uwagę na to jak wykorzystywane może w niej być matematyka i informatyka. W końcu to fizyka jest jedyną nauką pożyteczną samą w sobie, a przez to i piękną samą w sobie.
+
+                        Matematykę, uznaję za system stworzony w celu kwantyfikacji pojęć w sposób z natury abstrakcyjny. Powoduje to, że bez kontekstu fizycznego matematyka staje się tylko nudnym zbiorem tautologii. Natomiast dostrzeżenie jak istotne wnioski podpowiadają <b>wszystkie</b> te tautologie, pozwala na prawdziwe zrozumienie jej piękna.
+W Matematyce za wręcz najważniejszą rzecz uznałbym rzeczywiście głębokie zrozumienia każdego tematu. Dlatego od pewnego czasu mogę się poszczycić możliwość kompletnego(aksjomatycznego) dowodu znacznej ilości twierdzeń jakie znam. Oznacza to, że na pytanie <q>Dlaczego tak jest?</q>, odpowiedzieć mogę <q>Jeśli tak zdefiniujemy te obiekty i założymy, że spełnione są te aksjomaty, to widać, że musi tak być, bo ...</q>.
