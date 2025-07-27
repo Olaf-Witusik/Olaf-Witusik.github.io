@@ -1,0 +1,356 @@
+:root {
+    --text-color: #fff;
+    --back-color: #333;
+    --math-color: rgba(67, 72, 241, 0.717);
+}
+
+a {
+    color: unset;
+    margin-bottom: 2vh;
+}
+
+
+/* Button styles */
+button {
+    background-color: var(--back-color);
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
+    padding: 30px 60px;
+    font-family: "LM Roman 10", serif;
+    font-size: clamp(16px, 2vmin, 18px);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    border-radius: 5px;
+    margin: 30px;
+    position: relative; /* Ensures overlay is contained */
+    overflow: hidden; /* Hides any part of overlay that might overflow */
+}
+
+button:hover {
+    background-color: var(--text-color);
+    color: var(--back-color);
+    border-color: var(--back-color);
+}
+
+.pdfbutton:disabled {
+    background-color: #ccc;
+    color: #666;
+    border-color: #aaa;
+    cursor: not-allowed;
+    position: relative;
+}
+
+/* Overlay for disabled state */
+.info-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+    color: white;
+    font-size: clamp(14px, 1.8vmin, 16px);
+    text-align: center;
+    display: flex;
+    align-items: center; /* Centers text vertically */
+    justify-content: center; /* Centers text horizontally */
+    border-radius: 5px; /* Matches button's rounded corners */
+    pointer-events: none; /* Prevents interference with clicks */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth fade-in effect */
+}
+
+/* Show overlay when button is disabled */
+.pdfbutton:disabled .info-overlay {
+    opacity: 1; /* Makes the overlay visible */
+}
+
+/* Container styles */
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+@font-face {
+    font-family: "LM Roman 10";
+    src: url(../fonts/lmroman10-regular.otf);
+}
+
+@font-face {
+    font-family: "LM Roman 10";
+    src: url(../fonts/lmroman10-bold.otf);
+    font-weight: bold;
+}
+
+html,
+body {
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: "LM Roman 10";
+    line-height: 1.6;
+    padding-top: calc(38px + 2vh);
+    /* Adjust according to header height */
+    flex: 1;
+}
+
+header {
+    background-color: var(--back-color);
+    color: var(--text-color);
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /* Ensure header stays above other content */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+}
+
+.menu-item {
+    font-family: 'Arial';
+    font-weight: bold;
+    display: flex;
+    width: 18vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: clamp(11px, 2.5vmin, 16px);
+    padding: 2vh 1vmin;
+    /* Add padding to each menu item */
+    text-decoration: none;
+    /* Remove underline from links */
+    color: var(--text-color);
+    /* Text color */
+    margin: 0;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+.content {
+    position: relative;
+    min-height: calc(100vh - 350px); /* Adjusts content div height, minus footer space */
+    width: 100vw;
+    margin-top: 2vh;
+    padding-bottom: 2vh;
+    background-image: url("../img/back.png");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    justify-content: center;
+}
+
+.article-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.article {
+    width: min(1200px, 85vw);
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 8px;
+    font-size: clamp(16px, 4vmin, 18px);
+    padding: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 90vh; /* Set iframe height to 90% of the viewport height */
+    border: none;
+}
+
+
+
+
+#articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+
+/* Fizyka */
+.cat-0 {
+    background: linear-gradient(135deg, rgba(67, 72, 241, 1) 0%, rgba(67, 73, 241, 1) 25px, rgba(255, 255, 255, 0.75) 27px);
+}
+
+/* Informatyka */
+.cat-1 {
+    background: linear-gradient(135deg, rgba(67, 151, 241, 1) 0%, rgba(67, 151, 241, 1) 25px, rgba(255, 255, 255, 0.75) 27px);
+}
+
+/* Matematyka */
+.cat-2 {
+    background: linear-gradient(135deg, rgba(241, 67, 67, 1) 0%, rgba(241, 67, 67, 1) 25px, rgba(255, 255, 255, 0.75) 27px);
+}
+
+/* Filozofia Nauki */
+.cat-3 {
+    background: linear-gradient(135deg, rgba(152, 152, 152, 1) 0%, rgba(152, 152, 152, 1) 25px, rgba(255, 255, 255, 0.75) 27px);
+}
+
+td{
+    padding-inline: 10px;
+	width: 100%;
+}
+
+.date {
+    text-align: center;
+}
+
+.article-link {
+    color: black;
+    text-decoration: none;
+}
+
+#contact-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+#contact-box {
+    width: 80vmin;
+    height: 50vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 3vmin;
+    background-color: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 15px 27px 1px rgba(66, 68, 90, 1);
+    margin: 2vmin;
+    font-size: max(25px, 3vmin);
+    line-height: 15vmin;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box {
+    flex: 1 1 400px;
+    /* Preferred width */
+    min-width: 200px;
+    max-width: 500px;
+    box-sizing: border-box;
+    /* Ensure padding and border are included in the width */
+    padding: 2vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.info-box {
+    width: auto;
+    /* Ensure padding and border are included in the width */
+    padding: 2vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    border-radius: 3vmin;
+    background: linear-gradient(to top left, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 70%, rgba(176, 176, 176, 0.137) 100%);
+    backdrop-filter: blur(4px);
+    box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.22);
+    font-size: 16px;
+    line-height: calc(1.25 * clamp(16px, 1vmax, 20px));
+}
+
+footer {
+    background-color: var(--back-color);
+    color: var(--text-color);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-container {
+    /* padding-inline: min(300px, 40vw); */
+    width: min(90vw, max(400px, 20vw));
+    margin-inline: auto;
+}
+
+/* Custom modal styles */
+.custom-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+
+/* Attachments container */
+.attachments-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 30px 0;
+}
+.attachment-button {
+	background-color: var(--back-color);
+	color: var(--text-color);
+	border: 2px solid var(--text-color);
+	padding: 20px 40px;
+	font-family: "LM Roman 10", serif;
+	font-size: clamp(14px, 2vmin, 16px);
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+	border-radius: 5px;
+	margin: 10px;
+	text-decoration: none;
+	text-align: center;
+}
+.attachment-button:hover {
+	background-color: var(--text-color);
+	color: var(--back-color);
+	border-color: var(--back-color);
+}

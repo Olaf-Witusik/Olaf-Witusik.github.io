@@ -1,0 +1,49 @@
+{
+    "articles": [
+	{
+		"slug": "odi-fizyka-2024-25-e1",
+		"title_pl": "Rozwiązania zadań z fizyki z&nbsp;I&nbsp;etapu XVIII Ogólnopolskiej Olimpiady o&nbsp;Diamentowy Indeks AGH – 2024/25",
+		"title_en": "Rozwiązania zadań z fizyki z&nbsp;I&nbsp;etapu XVIII Ogólnopolskiej Olimpiady o&nbsp;Diamentowy Indeks AGH – 2024/25",
+		"authors": "Witusik Olaf [https://olaf-witusik.github.io]",
+		"date": "2025/06/10",
+		"domain_id": 0,
+		"keywords": ["fizyka", "physics", "Olimpiada", "Olympiad", "Diamentowy", "AGH", "rozwiązania", "solutions", "LaTeX", "szablon", "template", "CC BY-SA", "licencja", "license", "zadania", "problems", "pierwszy etap", "first stage"],
+		"abstract_pl": "W związku z zakończeniem tegorocznej edycji Olimpiady o&nbsp;Diamentowy Indeks AGH, z myślą o przyszłorocznych olimpijczykach, udostępniam moje rozwiązania zadań z fizyki z pierwszego etapu Olimpiady. Zostały ocenione na 99 ze 100 możliwych punktów. W załączniku zamieszczam również szablon, który stworzyłem do wygenerowania rozwiązań za pomocą oprogramowania do składaniu tekstu LaTeX. Udostępniam go do wolnego użytku dla celów udziału w Olimpiadzie, a także dla dowolnych innych celów w ramach licencji <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0 License</a>.<br>Treści zadań dostępne są na stronie Olimpiady, a dokładnie pod adresem <a href=\"https://www.diament.agh.edu.pl/wp-content/uploads/2024/09/etap_I_fizyka_24-25.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> https://www.diament.agh.edu.pl/wp-content/uploads/2024/09/etap_I_fizyka_24-25.pdf</a>.",
+		"abstract_en": "W związku z zakończeniem tegorocznej edycji Olimpiady o&nbsp;Diamentowy Indeks AGH, z myślą o przyszłorocznych olimpijczykach, udostępniam moje rozwiązania zadań z fizyki z pierwszego etapu Olimpiady. Zostały ocenione na 99 ze 100 możliwych punktów. W załączniku zamieszczam również szablon, który stworzyłem do wygenerowania rozwiązań za pomocą oprogramowania do składaniu tekstu LaTeX. Udostępniam go do wolnego użytku dla celów udziału w Olimpiadzie, a także dla dowolnych innych celów w ramach licencji <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 4.0 License</a>.<br>Treści zadań dostępne są na stronie Olimpiady, a dokładnie pod adresem <a href=\"https://www.diament.agh.edu.pl/wp-content/uploads/2024/09/etap_I_fizyka_24-25.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> https://www.diament.agh.edu.pl/wp-content/uploads/2024/09/etap_I_fizyka_24-25.pdf</a>.",
+		"attachments":["szablon.zip"]
+	},
+	{
+		"slug": "numerical-root-finding",
+		"title_pl": "Pewna metoda numeryczna znajdowania miejsc zerowych funkcji typu <i>ℝ<sup>n</sup> → ℝ</i>",
+		"title_en": "A numeric method of finding zeros of <i>ℝ<sup>n</sup> → ℝ</i> functions",
+		"authors": "Witusik Olaf [https://olaf-witusik.github.io]",
+		"date": "2024/09",
+		"domain_id": 2,
+		"keywords": ["matematyka", "mathematics", "numerical", "analysis", "analiza", "numeryczna", "Newton", "Raphson", "method", "metoda"],
+		"abstract_pl": "Niech istnieje pewna funkcja <i>f : ℝ<sup>n</sup> → ℝ</i>, której miejsca zerowe należy przybliżyć. Rozważana jest przestrzeń <i>ℝ<sup>n+1</sup></i> ∋ (<i>x₁, x₂, ..., x<sub>n</sub>, z</i>). W konstrukcji algorytmu iteratywnego, będącego swego rodzaju uogólnieniem metody Newtona-Raphsona, zakładamy ciąg przybliżeń <i>(p<sub>i</sub>)<sub>i∈ℕ</sub> ∈ (ℝ<sup>n</sup>)<sup>∞</sup></i> miejsca zerowego, do którego ciąg ten jest zbieżny, przy czym <i>p₀</i> jest punktem danym na wejściu.",
+		"abstract_en": "Let there be a function <i>f : ℝ<sup>n</sup> → ℝ</i>, whose zeros are to be approximated. Let us consider the space <i>ℝ<sup>n+1</sup></i> ∋ (<i>x₁, x₂, ..., x<sub>n</sub>, z</i>). Constructing the iterative algorithm, which is, in a way, a generalization of the Newton-Raphson method, we consider a sequence of approximations <i>(p<sub>i</sub>)<sub>i∈ℕ</sub> ∈ (ℝ<sup>n</sup>)<sup>∞</sup></i> of a zero of the function <i>f</i>, which is convergent to such zero. <i>p₀</i> is to be given as input."
+	},
+	{
+		"slug": "ray-equations",
+		"title_pl": "Wyprowadzenie wzorów promieni dla technik generowania rzutów perspektywicznych typu ray tracing",
+		"title_en": "Derivation of ray formulas for ray tracing like techniques of generating perspective views",
+		"authors": "Witusik Olaf [https://olaf-witusik.github.io]",
+		"date": "2024/03",
+		"domain_id": 2,
+		"keywords": ["perspektywa"],
+		"abstract_pl": "",
+		"abstract_en": ""
+	},
+	{
+		"slug": "rozwiazania-zadan-kolka-matematycznego",
+		"title_pl": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
+		"title_en": "Rozwiązania zadań z \"Kółka matematycznego dla olimpijczyków\" H.Pawłowskiego",
+		"authors": "Witusik Olaf [https://olaf-witusik.github.io]",
+		"date": "2024/02",
+		"domain_id": 2,
+		"keywords": ["matematyka", "olimpiada", "zadania"],
+		"abstract_pl": "",
+		"abstract_en": ""
+	}
+    ]
+}
